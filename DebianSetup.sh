@@ -9,6 +9,7 @@ sudo apt update
 sudo apt install brave-browser
 sudo systemctl enable sddm
 sudo systemctl enable xorg
+sudo Xorg -configure
 sudo wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb
 sudo dpkg -i steam.deb
 sudo wget https://sejda-cdn.com/downloads/sejda-desktop_7.5.2_amd64.deb
@@ -16,5 +17,5 @@ sudo dpkg -i sejda-desktop_7.5.2_amd64.deb
 sudo wget https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb
 sudo dpkg -i onlyoffice-desktopeditors_amd64.deb
 sudo tasksel install desktop kde-desktop
-sudo Xorg -configure
+
 
